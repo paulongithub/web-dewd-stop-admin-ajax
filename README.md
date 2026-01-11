@@ -8,4 +8,4 @@ This will stop WordPress's heartbeat only. Some plugins still use /admin-ajax.ph
 
 ## Important Note:
 
-This is intended to help devleopers whilst they're debugging. Don't use it in testing or production, because it will have unintended side affects. 
+This is intended to help devleopers whilst they're debugging. Don't use it in testing or production, because it will have unintended side effects. 
