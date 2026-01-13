@@ -15,6 +15,14 @@
 if (!defined('ABSPATH'))
     exit; // Exit if accessed directly
 
+
+add_action('customize_controls_enqueue_scripts', function() {
+
+        wp_dequeue_script('heartbeat');
+        wp_deregister_script('heartbeat');
+
+},999);
+
 add_action('wp_print_scripts', function () {
 
         wp_dequeue_script('heartbeat');
